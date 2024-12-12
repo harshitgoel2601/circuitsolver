@@ -63,19 +63,17 @@ Enter Circuit Components:
 
 On the main page (index.html), you will be prompted to enter circuit components in the following format:
 
-**<component_type>,<value>,<node1>,<node2>**
-
 For example:
 
-resistor,10,1,2
-capacitor,0.001,2,0
-voltage_source,5,1,0
+resistor,10,1,2  
+capacitor,0.001,2,0  
+voltage_source,5,1,0  
 
 This means:
-A resistor with a value of 10 ohms between nodes 1 and 2.
-A capacitor of 0.001 farads between nodes 2 and 0.
-A voltage source of 5V between node 1 and ground (node 0).
-
+A resistor with a value of 10 ohms between nodes 1 and 2.  
+A capacitor of 0.001 farads between nodes 2 and 0.  
+A voltage source of 5V between node 1 and ground (node 0).    
+ 
 Specify the Ground Node:
 
 You must also specify which node is the ground (i.e., node 0). This is done via a numeric input box on the form.
